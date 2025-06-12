@@ -21,7 +21,6 @@ To define a route, add a route object to the `routes` array in `app.routes.ts` t
 
 ```ts
 import {Routes} from '@angular/router';
-
 import {HomeComponent} from './home/home.component';
 
 export const routes: Routes = [
@@ -46,15 +45,14 @@ In `app.routes.ts`, add the `title` property to the default route (`path: ''`) a
 
 <docs-code language="ts" highlight="[8]">
 import {Routes} from '@angular/router';
-
 import {HomeComponent} from './home/home.component';
 
 export const routes: Routes = [
-{
-path: '',
-title: 'App Home Page',
-component: HomeComponent,
-},
+  {
+    path: '',
+    title: 'App Home Page',
+    component: HomeComponent,
+  },
 ];
 </docs-code>
 

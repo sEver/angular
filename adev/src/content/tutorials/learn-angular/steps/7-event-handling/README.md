@@ -12,13 +12,13 @@ In Angular you bind to events with the parentheses syntax `()`. On a given eleme
 
 ```angular-ts
 @Component({
-    ...
-    template: `<button (click)="greet()">`
+  ...
+  template: `<button (click)="greet()">`
 })
 class AppComponent {
-    greet() {
-        console.log('Hello, there 👋');
-    }
+  greet() {
+    console.log('Hello, there 👋');
+  }
 }
 ```
 
@@ -33,7 +33,7 @@ Add the `onMouseOver` event handler function in the `AppComponent` class. Use th
 
 ```ts
 onMouseOver() {
-    this.message = 'Way to go 🚀';
+  this.message = 'Way to go 🚀';
 }
 ```
 
